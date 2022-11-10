@@ -1,3 +1,5 @@
+import os
+
 USER_NOVELS = [
 	{
 		'origin': 'https://ncode.syosetu.com', # site where novel is hosted
@@ -11,3 +13,5 @@ USER_NOVELS = [
 
 NOTIFICATION_EMAIL_USERNAME = 'xxxx@gmail.com'
 NOTIFICATION_EMAIL_PASSWORD = 'xxxx'
+
+CHROMEDRIVER_PATH = os.getcwd() + '/chromedriver'
