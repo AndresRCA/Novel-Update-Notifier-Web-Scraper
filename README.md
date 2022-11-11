@@ -20,3 +20,4 @@ Unexpected issues encountered and their solutions:
 
 * BeautifulSoup's functions find() and find_all() returning empty: turns out the only reliable source is the "View page source" option in Chrome, not Inspect (in most cases the content is loaded after the user enters the page).
 * Websites returning http code 403: by adjusting User-Agent in the headers you can fool the website into thinking you're an user rather than a web scraper.
+* Changed BeautifulSoup to Selenium, which makes things a lot more manageable.
